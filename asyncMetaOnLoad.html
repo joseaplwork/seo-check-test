@@ -13,12 +13,12 @@
   <script type="text/javascript">
     window.addEventListener('load', function() {
       var title = document.createElement('meta');
-      title.name= 'title';
-      title.content= 'asyncMetaOnLoad';
+      title.name= 'keywords';
+      title.content= 'asyncMetaOnLoad async meta';
 
       var description = document.createElement('meta');
       description.name= 'description';
-      description.content= 'some content for asyncMetaOnLoad';
+      description.content= 'some content for asyncMetaOnLoad in the document';
 
       document.head.insertBefore(description, document.head.firstElementChild);
       document.head.insertBefore(title, document.head.firstElementChild);
